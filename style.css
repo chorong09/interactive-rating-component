@@ -1,0 +1,16 @@
+body{
+    display: flex; 
+    justify-content: center;
+    align-items:center;
+    background-color: hsl(216, 12%, 8%);
+}
+.request{
+    position:absolute; 
+    top:50%; 
+    left:50%; 
+    transform:translate(-50%,-50%); 
+    width: 400px;
+    display: grid;
+    background-color: hsl(213, 19%, 18%);
+    color: white;
+}
