@@ -20,11 +20,21 @@
     to help us improve our offering!</p>
 
     <div class="button">
-      <button>1</button>
-      <button>2</button>
+      <button onclick="buttonColor1()" id=button1>1</button>
+      <button onclick="buttonColor2()" id=button2>2</button>
+      <script>
+        function buttonColor() {
+          document.querySelector("#button1").style.backgroundColor='hsl(25, 97%, 53%)';
+        }
+        function buttonColor2() {
+          document.querySelector("#button2").style.backgroundColor='hsl(25, 97%, 53%)';
+        }
+      </script>
+      
       <button>3</button>
       <button>4</button>
       <button>5</button>
+      
     </div>
 
     <input type="button" value="SUBMIT" onclick="location.href='thankyou.html'">
