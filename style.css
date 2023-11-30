@@ -20,19 +20,28 @@ body{
 h2{
     color: white;
 }
-.button{
-    display: inline-block;
+.buttons{
+    display: flex;
+    align-items: center;
+    gap: 25px;
 }
 button{
+    
     border: none;
-    background-color: hsl(216, 12%, 54%);
+    background-color: hsl(221, 10%, 37%);
     color:white;
     text-align: center;
     width: 40px;
     height: 40px;
     border-radius: 50%;
+    cursor: pointer;
+    transition: color 0.2s ease;
+    
 }
 button:hover{
+    background-color: hsl(216, 12%, 54%);
+}
+button.active{
     background-color:hsl(25, 97%, 53%);
 }
 

@@ -6,11 +6,12 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap" rel="stylesheet">
+  <script src="script.js"></script>
   <title>Interactive rating component</title> 
 </head>
 <body>
   
-
+  
   <!-- Rating state start -->
   <div class="request">
     <img src="icon-star.svg">
@@ -19,22 +20,12 @@
     <p>Please let us know how we did with your support request. All feedback is appreciated 
     to help us improve our offering!</p>
 
-    <div class="button">
-      <button onclick="buttonColor1()" id=button1>1</button>
-      <button onclick="buttonColor2()" id=button2>2</button>
-      <script>
-        function buttonColor() {
-          document.querySelector("#button1").style.backgroundColor='hsl(25, 97%, 53%)';
-        }
-        function buttonColor2() {
-          document.querySelector("#button2").style.backgroundColor='hsl(25, 97%, 53%)';
-        }
-      </script>
-      
+    <div class="buttons">
+      <button>1</button>
+      <button>2</button>
       <button>3</button>
       <button>4</button>
       <button>5</button>
-      
     </div>
 
     <input type="button" value="SUBMIT" onclick="location.href='thankyou.html'">
